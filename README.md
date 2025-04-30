@@ -20,7 +20,7 @@ Results
 
 ### Dependencies ###
 The following Python libraries are used in this project:
-
+```python
 warnings
 sys
 requests
@@ -42,7 +42,7 @@ sklearn.metrics.accuracy_score
 sklearn.metrics.f1_score
 Bio.SeqUtils.ProtParam.ProteinAnalysis
 Bio.SeqUtils.ProtParamData
-
+```
 ### Data Description ###
 The dataset consists of protein sequences and associated labels. The primary file 
 pos+neg.fasta contains sequences for both positive and negative samples, where the goal is 
